@@ -16,8 +16,5 @@ mascara.addEventListener('click', ()=>{
 
 const topo = document.querySelector("#up");
 topo.addEventListener('click', ()=>{
-    window.scroll({
-        top:0,
-        behavior:"smooth",
-    });
+    
 });
