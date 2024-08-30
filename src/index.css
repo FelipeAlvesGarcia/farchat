@@ -113,7 +113,7 @@ body::-webkit-scrollbar-thumb {
   display:none;
 }
 header{
-  position: fixed;
+  position: sticky;
   width:100vw;
   top:0;
   z-index: 800;
