@@ -8,7 +8,7 @@ function Mensagens (){
             <header className="bg1">
                 <div className="container-fluid">
                     <div className="row py-3">
-                        <h1 className="ps-4 col-6 fs-5 text-white">Galera do Fut</h1>
+                        <h1 className="ps-4 col-6 fs-5 text-white mt-1">Galera do Fut</h1>
                         <div className="col-6 justify-content-end d-flex align-items-center">
                             <a href="/salas"><img src={fechar} style={{width:"1.5rem", height:"1.5rem"}} className="me-4 hover2" alt=""/></a>
                         </div>
@@ -72,13 +72,13 @@ function Mensagens (){
                 </div>
             </main>
 
-            <section id="texto" className="bg4 pt-2">
+            <section id="texto" className="bg4 pt-3 pt-lg-2">
                 <div className="container">
                     <div className="row d-flex justify-content-center">
-                        <div className="col-8">
+                        <div className="col-9 col-md-8">
                             <input type="text" className="rounded-pill border-0 py-3 px-5 fs-6 mb-3 w-100" style={{outline: "none"}} placeholder="Digite..."/>
                         </div>
-                        <div className="col-2">
+                        <div className="col-3 col-sm-2">
                             <div><img src={mandar} alt="" style={{height:"3.5rem"}} className="hover"/></div>
                         </div>
                     </div>

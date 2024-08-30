@@ -6,10 +6,6 @@ import usuario2 from '../img/usuario2.png';
 
 function Home (){
 
-    function entrarSalas (){
-        console.log("Entrar!")
-    }
-
     return(
         <>
             <div className="container-fluid">
