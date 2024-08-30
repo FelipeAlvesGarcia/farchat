@@ -10,7 +10,7 @@ function Mensagens (){
                     <div className="row py-3">
                         <h1 className="ps-4 col-6 fs-5 text-white">Galera do Fut</h1>
                         <div className="col-6 justify-content-end d-flex align-items-center">
-                            <a href="salas.html"><img src={fechar} style={{width:"1.5rem", height:"1.5rem"}} className="me-4 hover2" alt=""/></a>
+                            <a href="/salas"><img src={fechar} style={{width:"1.5rem", height:"1.5rem"}} className="me-4 hover2" alt=""/></a>
                         </div>
                     </div>
                 </div>

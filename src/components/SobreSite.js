@@ -4,7 +4,7 @@ function SobreSite (){
 
     return (
         <>
-            <a href="home.html" id="voltar" className="mt-5 hover">
+            <a href="/" id="voltar" className="mt-5 hover">
                 <img src={voltar} alt="" className="mt-1"/>
             </a>
 

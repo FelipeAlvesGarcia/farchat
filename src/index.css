@@ -26,6 +26,11 @@ body::-webkit-scrollbar-thumb {
 .a{
   text-decoration: none;
 }
+.button{
+  background: none;
+  border:none;
+  outline: none;
+}
 .a:hover{
   cursor: pointer;
 }
