@@ -49,7 +49,7 @@ function ListaSalas (){
             <header className="bg1 py-2 py-sm-1">
                 <div className="container-fluid">
                     <div className="row">
-                        <h1 className="ps-4 col-6 mt-1"><a href="/sobre" className="a ms-2 hover2" id="titulo2">FARCHAT</a></h1>
+                        <h1 className="ps-4 col-6 mt-1 mt-md-0"><a href="/sobre" className="a ms-2 hover2" id="titulo2">FARCHAT</a></h1>
                         <div className="col-6 justify-content-end d-flex align-items-center">
                             <a href="/"><img src={sair} style={{width:"1.5rem", height:"1.5rem"}} className="me-4 me-sm-5 hover2" alt=""/></a>
                         </div>
@@ -61,7 +61,7 @@ function ListaSalas (){
                 <div className="container mt-5">
                     <a className="row bg2 rounded a my-2 mx-1" id="sala" href="/mensagens">
                         <div className="col-9">
-                            <h2 className="text-white fs-5 p-3 mt-1">Grupo do Fut</h2>
+                            <h2 className="text-white fs-5 p-3 mt-2">Grupo do Fut</h2>
                         </div>
                         <div className="col-3 d-flex justify-content-end align-items-center">
                             <div>
@@ -71,7 +71,7 @@ function ListaSalas (){
                     </a>
                     <div className="row position-relative bg2 rounded a my-2 privada mx-1" id="sala" onClick={sala}>
                         <div className="col-9">
-                            <h2 className="text-white fs-5 p-3 mt-1">Cimol 631A</h2>
+                            <h2 className="text-white fs-5 p-3 mt-2">Cimol 631A</h2>
                         </div>
                         <div className="col-3 d-flex justify-content-end align-items-center">
                             <div>
@@ -79,7 +79,7 @@ function ListaSalas (){
                             </div>
                         </div>
                     </div>
-                    <a className="row bg2 rounded a my-2  mx-1 mt-1" id="sala" href="/mensagens">
+                    <a className="row bg2 rounded a my-2  mx-1 mt-2" id="sala" href="/mensagens">
                         <div className="col-9">
                             <h2 className="text-white fs-5 p-3">Oficina de Jogos</h2>
                         </div>
@@ -89,7 +89,7 @@ function ListaSalas (){
                             </div>
                         </div>
                     </a>
-                    <a className="row bg2 rounded a my-2  mx-1 mt-1" id="sala" href="/mensagens">
+                    <a className="row bg2 rounded a my-2  mx-1 mt-2" id="sala" href="/mensagens">
                         <div className="col-9">
                             <h2 className="text-white fs-5 p-3">Torneio de RL</h2>
                         </div>
