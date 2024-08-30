@@ -79,9 +79,9 @@ function ListaSalas (){
                             </div>
                         </div>
                     </div>
-                    <a className="row bg2 rounded a my-2  mx-1 mt-2" id="sala" href="/mensagens">
+                    <a className="row bg2 rounded a my-2  mx-1" id="sala" href="/mensagens">
                         <div className="col-9">
-                            <h2 className="text-white fs-5 p-3">Oficina de Jogos</h2>
+                            <h2 className="text-white fs-5 p-3 mt-2">Oficina de Jogos</h2>
                         </div>
                         <div className="col-3 d-flex justify-content-end align-items-center">
                             <div>
@@ -89,9 +89,9 @@ function ListaSalas (){
                             </div>
                         </div>
                     </a>
-                    <a className="row bg2 rounded a my-2  mx-1 mt-2" id="sala" href="/mensagens">
+                    <a className="row bg2 rounded a my-2  mx-1" id="sala" href="/mensagens">
                         <div className="col-9">
-                            <h2 className="text-white fs-5 p-3">Torneio de RL</h2>
+                            <h2 className="text-white fs-5 p-3 mt-2">Torneio de RL</h2>
                         </div>
                         <div className="col-3 d-flex justify-content-end align-items-center">
                             <div>
