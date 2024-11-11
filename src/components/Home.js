@@ -1,3 +1,6 @@
+import {useState, useEffect} from 'react';
+import axios from 'axios';
+
 import botao from '../img/botao.png';
 import aviao from '../img/aviao.png';
 import mensagem from '../img/mensagem.png';
@@ -5,6 +8,23 @@ import usuario1 from '../img/usuario1.png';
 import usuario2 from '../img/usuario2.png';
 
 function Home (){
+
+    const [posts, setPosts] = useState([]);
+
+    const getPosts = async() =>{
+        
+        try{
+            const response = await axios.get("https://chat-seven-mu.vercel.app/sobre", );
+            console.log(response.data);
+        }
+        catch(err){
+            console.error(err);
+        }
+    }
+
+    useEffect(() =>{
+        getPosts();
+    })
 
     return(
         <>
